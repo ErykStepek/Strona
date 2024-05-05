@@ -1,0 +1,152 @@
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.carousel {
+    position: relative;
+    display: flex;
+    width: 540px;
+    height: 407px;
+    padding: 0;
+    flex-direction: column;
+}
+
+.slide {
+    width: 100%;
+    height: 371px;
+    
+}
+
+.slide-hidden {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    color: black;
+    opacity: 0;
+    top: 50%;
+    transition: opacity 0.2s ease-in-out 0s;
+    transform: translateY(-50%);
+}
+
+.car {
+    position: relative;
+    overflow: hidden;
+}
+
+.car:hover > .arrow {
+    opacity: 1;
+}
+
+.NewsSlide:hover .NewsSlideInfo {
+    visibility: visible;
+    opacity: 1;
+    top: calc(100% - 108px);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.indicator {
+    background-color: rgb(179, 179, 179);
+    height: 4px;
+    width: 52px;
+    border: none;
+    cursor: pointer;
+    padding-block-end: 0px !important;
+    padding-block-start: 0px !important;
+    border-image-width: 0px !important;
+}
+
+.indicator-inactive {
+    background-color: rgb(92, 92, 92);
+}
+
+.NewsSlide {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 371px;
+}
+
+.NewsSlide img {
+    position: absolute;
+}
+
+.NewsSlideInfo {
+    width: 100%;
+    height: 108px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 100%;
+    padding: 8px 16px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: top 0.2s ease-in-out 0s;
+}
+
+.NewsSlideImg {
+    animation: fade 0.5s ease-in-out;
+}
+
+.NewsSlideInfoTitle {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    height: 40px;
+}
+
+.NewsSlideInfoTitle span:hover {
+    text-decoration: underline;
+}
+
+.NewsSlideInfoArtist {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    height: 20px;
+}
+
+.NewsSlideInfoArtist span:hover {
+    text-decoration: underline;
+}
+
+.NewsSlideInfoArtistLabel {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.NewsSlideInfoArtistLabel:hover {
+    text-decoration: none !important;
+}

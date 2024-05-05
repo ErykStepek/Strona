@@ -1,0 +1,114 @@
+{
+  "newsSlides": [
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/fd7d359c-05c4-43ed-98d2-8b20c78d9cad.jpg",
+      "alt": "Image 1 for carousel",
+      "title": "Sa Lana",
+      "artist1": "Dylan-S",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "My Other Side of the Moon"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/49305b77-ab73-4b8a-914e-fa3e65e03ad7.jpg",
+      "alt": "Image 2 for carousel",
+      "title": "New Generation (Space 92 Remix)",
+      "artist1": "Layton Giordani",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Drumcode"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/6ae6e5c5-c87b-4c33-a157-3a64dc8a5cb4.jpg",
+      "alt": "Image 3 for carousel",
+      "title": "Every Day, All Day",
+      "artist1": "Murphy's Law (UK)",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Hot Creations"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/1f7fd68f-8106-48e0-a8e5-f100ba270bbf.jpg",
+      "alt": "Image 4 for carousel",
+      "title": "Abidos",
+      "artist1": "Stereo Express,",
+      "artist2": "Anunnakis",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "OFF WORLD"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/8adc8326-fe91-43c3-90e0-bbf1873312a6.jpg",
+      "alt": "Image 5 for carousel",
+      "title": "Chaos EP",
+      "artist1": "Easttown",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Cecille"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/19a26a40-8719-40db-8a62-b4e0faf382ad.jpg",
+      "alt": "Image 6 for carousel",
+      "title": "Journey LP",
+      "artist1": "RUZE",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "PIV"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/268d91b4-3bc8-4359-8d90-a1f4685d6e76.jpg",
+      "alt": "Image 7 for carousel",
+      "title": "Salvo",
+      "artist1": "Simula,",
+      "artist2": "Catching Cairo",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Critical Music"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/f5230f6b-71c0-44e3-8953-7ad43774086d.jpg",
+      "alt": "Image 8 for carousel",
+      "title": "San te Crüs",
+      "artist1": "Spencer Brown",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Bedrock Records"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/e180017e-bf5d-44bd-ab04-596fda89b87b.jpg",
+      "alt": "Image 9 for carousel",
+      "title": "Symmetry EP",
+      "artist1": "AFFKT",
+      "artist2": "",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Sincopat"
+    },
+    {
+      "src": "https://geo-media.beatport.com/image_size/920x642/d25a4d17-bb47-4dac-ba77-c95d36b184a7.jpg",
+      "alt": "Image 10 for carousel",
+      "title": "Pliva",
+      "artist1": "Jamie Jones,",
+      "artist2": "AMEME",
+      "artist3": "",
+      "artist4": "",
+      "artist5": "",
+      "label": "Cercle Records"
+    }
+  ]
+}

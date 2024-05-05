@@ -1,0 +1,141 @@
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: "AeonikBold";
+    src: url('./font/AeonikTRIAL-Bold.ttf') format('truetype');
+    font-size-adjust: 130.39;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.DJdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.DJdiv img {
+    mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.99) 40%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.99) 40%);
+}
+
+.DJcarousel {
+    position: relative;
+    display: flex;
+    width: 231.5px;
+    height: 407px;
+    padding: 0;
+    flex-direction: column;
+}
+
+.DJslide {
+    width: 100%;
+    height: 371px;
+}
+
+.DJslide-hidden {
+    display: none;
+}
+
+.DJindicators {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    width: 231.5px;
+    margin-top: 7px;
+}
+
+.DJindicator {
+    background-color: rgb(179, 179, 179);
+    height: 4px;
+    width: 75.859px;
+    border: none;
+    cursor: pointer;
+    padding-block-end: 0px !important;
+    padding-block-start: 0px !important;
+    border-image-width: 0px !important;
+}
+
+.DJindicator-inactive {
+    background-color: rgb(92, 92, 92);
+}
+
+.DJcover {
+    height: 119px !important;
+    width: 231.5px;
+    object-fit: cover !important;
+    object-position: 0% 30%;
+    animation: fade 0.5s ease-in-out;
+}
+
+.DJdiv span {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-family: AeonikBold;
+}
+
+.text {
+    text-decoration: none;
+    animation: none;
+}
+
+.DJbuttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.DJbuttons button {
+    position: relative;
+    background-color: rgb(64, 64, 64);
+    border: none;
+    border-radius: 2px;
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.DJbuttonscontainer:hover > button {
+    background-color: rgb(90, 90, 90);
+}
+
+.DJbuttonscontainer {
+    width: 24px !important;
+    height: 24px !important;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 4px;
+}
+
+.DJsvgarrow {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.DJbuttonscontainer svg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: rgb(140, 140, 140);
+    padding: 4px;
+}
+
+.DJbuttonscontainer:hover svg {
+    fill: rgb(210, 210, 210);
+}

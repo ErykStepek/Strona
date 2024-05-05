@@ -1,0 +1,300 @@
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: "AeonikRegular";
+    src: url('./font/AeonikTRIAL-Regular.ttf') format('truetype');
+    font-size-adjust: 130.39;
+}
+
+@font-face {
+    font-family: "AeonikBold";
+    src: url('./font/AeonikTRIAL-Bold.ttf') format('truetype');
+    font-size-adjust: 130.39;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Releasesdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Releasesdiv img {
+
+}
+
+.Releasescarousel {
+    position: relative;
+    display: flex;
+    width: 782px;
+    height: 100%;
+    padding: 0;
+    flex-direction: column;
+}
+
+.Releasesslide {
+    width: 100%;
+    height: 467px;
+}
+
+.Releasesslide-hidden {
+    display: none;
+}
+
+.Releasesindicators {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    gap: 2px;
+}
+
+.Releasesindicator {
+    background-color: rgb(179, 179, 179);
+    height: 4px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding-block-end: 0px !important;
+    padding-block-start: 0px !important;
+    border-image-width: 0px !important;
+}
+
+.Releasesindicator-inactive {
+    background-color: rgb(92, 92, 92);
+}
+
+.Releasescover {
+    height: 150px !important;
+    width: 150px;
+    object-fit: cover !important;
+    object-position: 0% 30%;
+    animation: fade 0.5s ease-in-out;
+}
+
+.text {
+    text-decoration: none;
+    animation: none;
+}
+
+.Releasesbuttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.Releasesbuttons button {
+    position: relative;
+    background-color: rgb(52, 52, 52);
+    border: none;
+    border-radius: 2px;
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.buttonscontainer:hover > button {
+    background-color: rgb(90, 90, 90);
+}
+
+.buttonscontainer {
+    width: 24px !important;
+    height: 24px !important;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 4px;
+}
+
+.Releasessvgarrow {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.buttonscontainer svg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    fill: rgb(140, 140, 140);
+    padding: 4px;
+}
+
+.buttonscontainer:hover svg {
+    fill: rgb(210, 210, 210);
+}
+
+.ReleasesRow {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.ReleasesRowItem {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 225px;
+    gap: 0;
+}
+
+.ReleasesRowItemInfo {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 75px;
+    gap: 4px;
+    background-color: rgb(52, 52, 52);
+    justify-content: flex-start;
+}
+
+.ReleasesRowItemInfoItems {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 100%;
+    max-width: 142px;
+    height: 100%;
+    max-height: 67px;
+    gap: 4px;
+}
+
+.ReleasesRowItemInfoTitle {
+    font-family: AeonikBold;
+    overflow: hidden;
+    font-size: 13px;
+    width: 100%;
+    max-width: 142px;
+    height: 100%;
+    max-height: 15px;
+}
+
+.ReleasesRowItemInfoTitle:hover, #artist1:hover, #artist2:hover, #artist3:hover, #artist4:hover, #artist5:hover, #artist6:hover {
+    text-decoration: underline;
+}
+
+.ReleasesRowItemInfoArtists {
+    font-family: AeonikRegular;
+    overflow: hidden;
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+    width: 100%;
+    max-width: 142px;
+    height: 100%;
+    max-height: 15px;
+}
+
+.ReleasesRowItemInfoLabel {
+    font-family: AeonikRegular;
+    overflow: hidden;
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+    width: 100%;
+    max-width: 142px;
+    height: 100%;
+    max-height: 15px;
+}
+
+.ReleaseOptionsPanel {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    background-color: rgb(105, 105, 105);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out 0s;
+    margin-top: 126px;
+    gap: 4px;
+}
+
+.ReleaseOptionsPanelButtons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 24px;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.ReleaseOptionsPanelButtonsButton {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border: 0 solid;
+    background-color: rgb(105, 105, 105);
+    padding: 0 0 0 0;
+}
+
+.ReleaseOptionsPanelBuy {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 70px;
+    height: 100%;
+    max-height: 24px;
+    background-color:rgb(255, 83, 160);
+}
+
+.stylesvg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    vertical-align: middle;
+    font-size: 24px;
+    text-align: left;
+    left: 0;
+    width: 24px;
+}
+
+.ReleaseOptionsPanel svg:hover {
+    filter: drop-shadow(rgb(255, 255, 255) 0px 0px 7px);
+    fill: rgb(255, 255, 255);
+}
+
+.ReleaseOptionsPanelButtonsBuyButton {
+    display: flex;
+    height: 24px;
+    width: 66px;
+    background-color: rgb(255, 83, 160);
+    border: 0 solid;
+    padding: 0 0 0 0;
+    line-height: 12px;
+    text-align: center !important;
+}
+
+.ReleaseOptionsPanelButtonsBuyButton p {
+    font-family: AeonikBold;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 11px;
+}
+
+.ReleasesRowItem:hover .ReleaseOptionsPanel {
+    opacity: 1 !important;
+}
+
+.ReleasesRowItem a {
+    height: 150px !important;
+}
